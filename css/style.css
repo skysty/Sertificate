@@ -1,0 +1,246 @@
+@charset "UTF-8";
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    width: 100%;
+}
+body{
+  font-family: 'Times New Roman';
+  background-color: gray;
+  line-height: 1;
+}
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+
+@media only screen and (max-width: 630px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 91.66%;
+  }
+}
+
+
+
+[class*="col-"] {
+  background-image: url("/images/1.png");
+  max-width: 1130px;
+  max-height: 791px;
+  margin: auto;
+  padding: auto;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 1130px;
+  max-height: 791px;
+  }
+.letter {
+  padding: 40px;
+  }
+.rectangle {
+  width: 95%;
+  height: auto;
+  position: relative;
+  left: 30px;
+  top: 33px;
+  max-width: 1130px;
+  max-height: 780px;
+}
+
+.content {
+  color: #fff;
+  font: 100 24px/100px sans-serif;
+  height: 100px;
+  text-align: center;
+}
+.content div {
+  height: auto;
+  width: 50%;
+}
+.content {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.flag1 {
+  position: relative;
+  top: 50%;
+  left: 17%;
+  transform: translate(-50%, -650%);
+}
+
+.flag2 {
+  position: relative;
+  top: 50%;
+  right: -40px;
+  transform: translate(-10%, -650%);
+}
+.iconn{
+  position: relative;
+  top: 50%;
+  left: 21.5%;
+  transform: translate(-62%, -668%);
+}
+
+.text{
+  position:relative;
+  top: 50%;
+  left: 70%;
+  transform: translate(-40%, -2455%);
+  display: block;
+}
+.txt{
+  font-weight: 600;
+  font-size: 9pt;
+}
+.txta{
+   position:relative;
+   left: 11.8%;
+}
+.txt1{
+  position: relative;
+  font-weight: 600;
+  font-size: 9pt;
+  left: 40px;
+}
+.txta1{
+   position:absolute;
+   top: 110%;
+   left: 120px;
+}
+.header{
+  position: relative;
+  top: 50%;
+  left: 72.5%;
+  transform: translate(-50%, -1150%);
+  display: block;
+  font-size: 19pt;
+}
+
+
+.textInput {
+  display: block;
+  font: 100 18px/20px Times,sans-serif;
+  height: 100px;
+  text-align: center;
+}
+
+.textInput div {
+  height: auto;
+  width: 50%;
+  position: relative;
+  bottom: 572%;
+}
+.textInput {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+.leftSide{
+  position: relative;
+  left: 8%;
+}
+.rightSide{
+  position: relative;
+  right: 1%;
+}
+.name{
+  font-weight:800;
+}
+.name1{
+  font-weight:800;
+}
+.textProg{
+   margin-top: 10px; 
+   display: block;
+   position: relative;
+   bottom: 590px;
+   left:20%;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 13pt;
+}
+.texttur{
+  position: relative;
+  left: 9%;
+  top: 8px;
+}
+.textpr1{
+  position: relative;
+  left: 35px;
+}
+.textpr2{
+  position: relative;
+  left: 20px;
+}
+.signature div{
+  display: block;
+  position: relative;
+  right: 215px;
+  top: 20px;
+  font-weight: bold;
+}
+.signature{
+  display: flex;
+  justify-content: space-evenly;
+}
+.footerText{
+  position: absolute;
+  bottom: 85%;
+  left: 50%;
+}
+.textFooter{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 207px;
+  right: 15px;
+  font-weight: bold;
+  transform: translate(-160%, 510%);
+}
+
+.tirkeu{
+  float: right;
+  position: relative;
+  left: 30px;
+  top: 140px;
+  font-weight: bold;
+  transform: translate(-60%,230%);
+}
+.line{
+  text-decoration:underline;
+  position: relative;
+  left: 88px;
+  bottom: 30px;
+}
+#qrcode {
+  width:100px;
+  height:100px;
+  margin-top:15px;
+  position: relative;
+  top: 315px;
+  right: 710px;
+}

@@ -1,0 +1,56 @@
+.header{
+    position: relative;
+    top: 50%;
+    left: 72.5%;
+    transform: translate(-50%, -1150%);
+    display: block;
+    font-size: 19pt;
+  }
+  
+  
+  .textInput {
+    font: 100 19px/20px Times,sans-serif;
+    height: 100px;
+    text-align: center;
+  }
+  
+  .textInput div {
+    width: 50%;
+  }
+  .textInput {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+  .leftSide{
+    position: relative;
+    left: 8%;
+  }
+  .rightSide{
+    position: relative;
+    right: 1%;
+  }
+  .name{
+    font-weight:800;
+  }
+  .textProg{
+    display: block;
+     position: relative;
+     bottom: 550px;
+     left:20%;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 13pt;
+  }
+  .texttur{
+    position: relative;
+    left: 9%;
+    top: 8px;
+  }
+  .textpr1{
+    position: relative;
+    left: 35px;
+  }
+  .textpr2{
+    position: relative;
+    left: 20px;
+  }

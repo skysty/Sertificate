@@ -1,0 +1,11 @@
+﻿@media print {
+    @page {
+        margin-top: 0;
+        
+    }
+
+    html,body {
+        padding-top: 0;
+        overflow: hidden;
+    }
+}
